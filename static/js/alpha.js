@@ -1,6 +1,5 @@
 $( document ).ready(function() {
 
-
     if ($('.material-design-hamburger__icon').length === 1) {
         document.querySelector('.material-design-hamburger__icon').addEventListener(
             'click',
@@ -236,4 +235,6 @@ $( document ).ready(function() {
     $('input.expand-search').blur(function(){
         $(this).removeClass('open-search');
     });
+
+
 });

@@ -1645,8 +1645,9 @@ li.active .nav-drop-icon {
 .middle-content {
     padding-top: 25px;
     padding-right: 25px;
+    padding-left: 0px;
     float: left;
-    width: calc(100% - 220px)!important;
+    width: 100% !important;
 }
 
 .mn-inner {
